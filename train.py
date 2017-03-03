@@ -18,8 +18,6 @@ def main():
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
-    parser.add_argument('--batch_size', type=int, default=30,
-                        help='training batch size')
     parser.add_argument('--dropout', type=float, default=0.0,
                         help='dropout rate')
     parser.add_argument('--hidden_dim', type=int, default=75,
