@@ -45,5 +45,5 @@ python train.py --hidden_dim=75 --dropout=0.2 --optimizer=rmsprop --output_dir m
 To resume from a saved model
 
 ```bash
-python train.py --hidden_dim=75 --dropout=0.2 --optimizer=rmsprop --output_dir model-75-0.2-rmsprop --nb_epoch=5 --resume
+python train.py --resume --output_dir model-75-0.2-rmsprop --nb_epoch=5
 ```
