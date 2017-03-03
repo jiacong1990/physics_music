@@ -34,7 +34,7 @@ def main():
                         help='resume from saved model')
     parser.add_argument('--seq_length', type=int, default=30,
                         help='sequence length')
-    parser.add_argument('--seq_stride', type=int, default=1,
+    parser.add_argument('--seq_stride', type=int, default=0,
                         help='sequence stride')
     parser.add_argument('--val_split', type=float, default=0.2,
                         help='fraction of the validation data')
@@ -58,7 +58,11 @@ def prepare_data(args):
     # prepare input character sequences and target characters
     sequences = []
     targets = []
-    for i in range(0, len(text) - args.seq_length, args.seq_stride):
+    if args.seq_stride > 0:
+        step = args.seq_stride
+    else:
+        step = args.seq_length - args.seq_stride
+    for i in range(0, len(text) - args.seq_length, step):
         sequences.append(text[i: i + args.seq_length])
         targets.append(text[i + args.seq_length])
 

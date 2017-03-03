@@ -29,7 +29,7 @@ optional arguments:
   --seq_length SEQ_LENGTH
                         sequence length (default: 30)
   --seq_stride SEQ_STRIDE
-                        sequence stride (default: 1)
+                        sequence stride (default: 0)
   --val_split VAL_SPLIT
                         fraction of the validation data (default: 0.2)
 ```
