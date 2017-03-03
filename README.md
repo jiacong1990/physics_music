@@ -15,7 +15,7 @@ usage: train.py [-h] [--dropout DROPOUT] [--hidden_dim HIDDEN_DIM]
 
 optional arguments:
   -h, --help            show this help message and exit
-  --dropout DROPOUT     dropout rate (default: 0.0)
+  --dropout DROPOUT     dropout fraction (default: 0.2)
   --hidden_dim HIDDEN_DIM
                         hidden layer dimension (default: 75)
   --input_file INPUT_FILE
