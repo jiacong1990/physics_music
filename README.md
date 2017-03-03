@@ -33,3 +33,17 @@ optional arguments:
   --val_split VAL_SPLIT
                         fraction of the validation data (default: 0.2)
 ```
+
+## Example
+
+To train a new model
+
+```bash
+python train.py --hidden_dim=75 --dropout=0.2 --optimizer=rmsprop --output_dir model-75-0.2-rmsprop --nb_epoch=5
+```
+
+To resume from a saved model
+
+```bash
+python train.py --hidden_dim=75 --dropout=0.2 --optimizer=rmsprop --output_dir model-75-0.2-rmsprop --nb_epoch=5 --resume
+```
