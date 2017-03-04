@@ -29,7 +29,7 @@ def main():
                         help='number of epochs')
     parser.add_argument('--optimizer', type=str, default='rmsprop',
                         help='name of the optimizer')
-    parser.add_argument('--output_dir', type=str, default='test_output',
+    parser.add_argument('--output_dir', type=str, default='model-test',
                         help='output directory')
     parser.add_argument('--resume', action='store_true', default=False,
                         help='resume from saved model')
