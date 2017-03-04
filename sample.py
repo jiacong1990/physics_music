@@ -15,7 +15,7 @@ def main():
                         help='maximum sampling length')
     parser.add_argument('-m', '--model', type=str,
                         help='model directory')
-    parser.add_argument('-o', '--output_file', type=str,
+    parser.add_argument('-o', '--output_file', type=str, default=None,
                         help='output file name')
     parser.add_argument('-p', '--prime', type=str, default='<start>',
                         help='prime sequence')
@@ -53,9 +53,10 @@ def sample(args):
         if generated.endswith(args.until):
             break
 
-    with open(args.output_file, 'w') as f:
-        f.write(generated)
-    print('\n\ngenerated text saved to', args.output_file)
+    if args.output_file is not None:
+        with open(args.output_file, 'w') as f:
+            f.write(generated)
+        print('\n\ngenerated text saved to', args.output_file)
 
 
 def choose(preds, temperature=1.0):
