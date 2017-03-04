@@ -58,7 +58,7 @@ def prepare_data(args):
 
     # save characters
     chars = sorted(list(set(text)))
-    with open(os.path.join(args.output_dir, 'chars.json')) as f:
+    with open(os.path.join(args.output_dir, 'chars.json'), 'w') as f:
         json.dump(chars, f)
 
     # prepare input character sequences and target characters
