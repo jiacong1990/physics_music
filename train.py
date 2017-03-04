@@ -41,6 +41,8 @@ def main():
                         help='fraction of the validation data')
 
     args = parser.parse_args()
+    # make sure output directory exists
+    os.makedirs(args.output_dir, exist_ok=True)
     data = prepare_data(args)
     model_file = os.path.join(args.output_dir, 'model.hdf5')
     if args.resume and os.path.exists(model_file):
@@ -58,6 +60,7 @@ def prepare_data(args):
 
     # save characters
     chars = sorted(list(set(text)))
+
     with open(os.path.join(args.output_dir, 'chars.json'), 'w') as f:
         json.dump(chars, f)
 
@@ -106,9 +109,6 @@ def build_model(data, args):
 
 
 def train(model, data, args):
-    # make sure output directory exists
-    os.makedirs(args.output_dir, exist_ok=True)
-
     # set up callbacks to record model and history
     model_file = os.path.join(args.output_dir, 'model.hdf5')
     history_file = os.path.join(args.output_dir, 'history.csv')
