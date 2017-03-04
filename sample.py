@@ -1,5 +1,6 @@
 import argparse
 import os
+import sys
 
 from keras.models import load_model
 import numpy as np
@@ -37,6 +38,7 @@ def sample(args):
     _, seq_len, nb_char = model.input_shape
 
     generated = args.prime
+    sys.stdout.write(generated)
     for i in range(args.length):
         x = np.zeros((1, seq_len, nb_char))
         for vec, char in zip(reversed(x[0]), reversed(generated)):
@@ -44,12 +46,16 @@ def sample(args):
         preds = model.predict(x)[0]
         next_char = chars[choose(preds, temperature=args.temperature)]
         generated += next_char
+
+        sys.stdout.write(next_char)
+        sys.stdout.flush()
+
         if generated.endswith(args.until):
             break
 
-    print(generated)
     with open(args.output_file, 'w') as f:
         f.write(generated)
+    print('\n\ngenerated text saved to', args.output_file)
 
 
 def choose(preds, temperature=1.0):
