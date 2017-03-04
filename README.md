@@ -5,13 +5,13 @@
 To train a new model
 
 ```bash
-python train.py --hidden_dim 75 --dropout 0.2 --optimizer rmsprop --output_dir model-test --nb_epoch=2
+python train.py --hidden_dim 75 --dropout 0.2 --optimizer rmsprop --output_dir model-test --nb_epoch 2
 ```
 
 To resume from a saved model
 
 ```bash
-python train.py --resume --output_dir model-test --nb_epoch=2
+python train.py --resume --output_dir model-test --nb_epoch 2
 ```
 
 To sample using a saved model
