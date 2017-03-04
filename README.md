@@ -47,3 +47,9 @@ To resume from a saved model
 ```bash
 python train.py --resume --output_dir model-75-0.2-rmsprop --nb_epoch=5
 ```
+
+To sample using a saved model
+
+```bash
+python sample.py -m model-75-0.2-rmsprop -t 1 -l 100 -o model-75-0.2-rmsprop/sample.txt
+```
