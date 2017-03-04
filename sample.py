@@ -39,10 +39,8 @@ def sample(args):
     generated = args.prime
     for i in range(args.length):
         x = np.zeros((1, seq_len, nb_char))
-        for j, char in enumerate(reversed(generated)):
-            if j >= seq_len:
-                break
-            x[0, seq_len - 1 - j, c2i[char]] = 1
+        for vec, char in zip(reversed(x[0]), reversed(generated)):
+            vec[c2i[char]] = 1
         preds = model.predict(x)[0]
         next_char = chars[choose(preds, temperature=args.temperature)]
         generated += next_char
