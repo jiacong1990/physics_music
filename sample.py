@@ -70,7 +70,7 @@ def sample(args):
 def choose(preds, temperature=1.0):
     # helper function to sample an index from a probability array
     preds = np.asarray(preds).astype('float64')
-    preds = softmax(preds / temperature)
+    preds = softmax(np.log(preds) / temperature)
     probas = np.random.multinomial(1, preds, 1)
     return np.argmax(probas)
 
