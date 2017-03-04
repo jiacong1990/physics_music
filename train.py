@@ -68,7 +68,7 @@ def prepare_data(args):
 
     # convert characters to one-hot vectors
     chars = sorted(list(set(text)))
-    c2i = dict((c, i) for i, c in enumerate(chars))
+    c2i = dict(zip(chars, range(len(chars))))
     x = np.zeros((len(sequences), args.seq_length, len(chars)), dtype=np.bool)
     y = np.zeros((len(sequences), len(chars)), dtype=np.bool)
     for i, sequence in enumerate(sequences):

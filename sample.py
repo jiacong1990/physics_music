@@ -30,7 +30,7 @@ def main():
 def sample(args):
     text = open('data/input.txt').read()
     chars = sorted(list(set(text)))
-    c2i = dict((c, i) for i, c in enumerate(chars))
+    c2i = dict(zip(chars, range(len(chars))))
 
     model_file = os.path.join(args.model, 'model.hdf5')
     model = load_model(model_file)
