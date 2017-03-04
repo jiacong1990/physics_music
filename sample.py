@@ -50,7 +50,7 @@ def sample(args):
             break
 
     print(generated)
-    with open(args.output, 'w') as f:
+    with open(args.output_file, 'w') as f:
         f.write(generated)
 
 
