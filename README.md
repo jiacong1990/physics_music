@@ -59,19 +59,22 @@ python sample.py --help
 ```
 
 ```
-usage: sample.py [-h] [-l LENGTH] [-m MODEL] [-o OUTPUT] [-p PRIME]
-                 [-t TEMPERATURE]
+usage: sample.py [-h] [-l LENGTH] [-m MODEL] [-o OUTPUT_FILE] [-p PRIME]
+                 [-t TEMPERATURE] [-u UNTIL]
 
 optional arguments:
   -h, --help            show this help message and exit
   -l LENGTH, --length LENGTH
+                        maximum sampling length (default: 2000)
   -m MODEL, --model MODEL
                         model directory (default: None)
-  -o OUTPUT, --output OUTPUT
+  -o OUTPUT_FILE, --output_file OUTPUT_FILE
                         output file name (default: None)
   -p PRIME, --prime PRIME
                         prime sequence (default: <start>)
   -t TEMPERATURE, --temperature TEMPERATURE
                         higher temperature increases diversity (default: 1)
-
+  -u UNTIL, --until UNTIL
+                        stop sampling when the until sequence appears
+                        (default: <end>)
 ```

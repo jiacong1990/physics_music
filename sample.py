@@ -11,15 +11,17 @@ def main():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument('-l', '--length', type=int, default=2000,
-                        help='')
+                        help='maximum sampling length')
     parser.add_argument('-m', '--model', type=str,
                         help='model directory')
-    parser.add_argument('-o', '--output', type=str,
+    parser.add_argument('-o', '--output_file', type=str,
                         help='output file name')
     parser.add_argument('-p', '--prime', type=str, default='<start>',
                         help='prime sequence')
     parser.add_argument('-t', '--temperature', type=float, default=1,
                         help='higher temperature increases diversity')
+    parser.add_argument('-u', '--until', type=str, default='<end>',
+                        help='stop sampling when the until sequence appears')
 
     args = parser.parse_args()
     sample(args)
@@ -44,6 +46,8 @@ def sample(args):
         preds = model.predict(x)[0]
         next_char = chars[choose(preds, temperature=args.temperature)]
         generated += next_char
+        if generated.endswith(args.until):
+            break
 
     print(generated)
     with open(args.output, 'w') as f:
