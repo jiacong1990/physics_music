@@ -1,5 +1,25 @@
 # physics_music
 
+## Example
+
+To train a new model
+
+```bash
+python train.py --hidden_dim 75 --dropout 0.2 --optimizer rmsprop --output_dir model-test --nb_epoch=2
+```
+
+To resume from a saved model
+
+```bash
+python train.py --resume --output_dir model-test --nb_epoch=2
+```
+
+To sample using a saved model
+
+```bash
+python sample.py -m model-test -t 1 -l 100 -o model-test/sample.txt
+```
+
 ## Usage
 
 ```bash
@@ -34,22 +54,24 @@ optional arguments:
                         fraction of the validation data (default: 0.2)
 ```
 
-## Example
-
-To train a new model
-
 ```bash
-python train.py --hidden_dim=75 --dropout=0.2 --optimizer=rmsprop --output_dir model-75-0.2-rmsprop --nb_epoch=5
+python sample.py --help
 ```
 
-To resume from a saved model
-
-```bash
-python train.py --resume --output_dir model-75-0.2-rmsprop --nb_epoch=5
 ```
+usage: sample.py [-h] [-l LENGTH] [-m MODEL] [-o OUTPUT] [-p PRIME]
+                 [-t TEMPERATURE]
 
-To sample using a saved model
+optional arguments:
+  -h, --help            show this help message and exit
+  -l LENGTH, --length LENGTH
+  -m MODEL, --model MODEL
+                        model directory (default: None)
+  -o OUTPUT, --output OUTPUT
+                        output file name (default: None)
+  -p PRIME, --prime PRIME
+                        prime sequence (default: <start>)
+  -t TEMPERATURE, --temperature TEMPERATURE
+                        higher temperature increases diversity (default: 1)
 
-```bash
-python sample.py -m model-75-0.2-rmsprop -t 1 -l 100 -o model-75-0.2-rmsprop/sample.txt
 ```
