@@ -1,5 +1,6 @@
 import argparse
 from collections import namedtuple
+import json
 import os
 
 from keras.callbacks import CSVLogger
@@ -55,6 +56,11 @@ def prepare_data(args):
     # read text from file
     text = open(args.input_file).read()
 
+    # save characters
+    chars = sorted(list(set(text)))
+    with open(os.path.join(args.output_dir, 'chars.json')) as f:
+        json.dump(chars, f)
+
     # prepare input character sequences and target characters
     sequences = []
     targets = []
@@ -67,7 +73,6 @@ def prepare_data(args):
         targets.append(text[i + args.seq_length])
 
     # convert characters to one-hot vectors
-    chars = sorted(list(set(text)))
     c2i = dict(zip(chars, range(len(chars))))
     x = np.zeros((len(sequences), args.seq_length, len(chars)), dtype=np.bool)
     y = np.zeros((len(sequences), len(chars)), dtype=np.bool)

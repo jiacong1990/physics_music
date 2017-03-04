@@ -1,4 +1,5 @@
 import argparse
+import json
 import os
 import sys
 
@@ -29,8 +30,15 @@ def main():
 
 
 def sample(args):
-    text = open('data/input.txt').read()
-    chars = sorted(list(set(text)))
+    chars_file = os.path.join(args.model, 'chars.json')
+    if os.path.exists(chars_file):
+        with open(chars_file) as f:
+            chars = json.load(f)
+    else:
+        text = open('data/input.txt').read()
+        chars = sorted(list(set(text)))
+        with open(chars_file, 'w') as f:
+            json.dump(chars, f)
     c2i = dict(zip(chars, range(len(chars))))
 
     model_file = os.path.join(args.model, 'model.hdf5')
