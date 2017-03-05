@@ -52,7 +52,7 @@ optional arguments:
   --optimizer OPTIMIZER
                         name of the optimizer (default: rmsprop)
   --output_dir OUTPUT_DIR
-                        output directory (default: test_output)
+                        output directory (default: model-test)
   --resume              resume from saved model (default: False)
   --seq_length SEQ_LENGTH
                         sequence length (default: 30)
@@ -79,10 +79,11 @@ optional arguments:
   -o OUTPUT_FILE, --output_file OUTPUT_FILE
                         output file name (default: None)
   -p PRIME, --prime PRIME
-                        prime sequence (default: <start>)
+                        prime sequence (default: <start> X:)
   -t TEMPERATURE, --temperature TEMPERATURE
                         higher temperature increases diversity (default: 1)
   -u UNTIL, --until UNTIL
                         stop sampling when the until sequence appears
                         (default: <end>)
+
 ```
