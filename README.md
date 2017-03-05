@@ -17,7 +17,13 @@ python train.py --resume --output_dir model-test --nb_epoch 2
 To sample using a saved model
 
 ```bash
-python sample.py -m model-test -t 1 -l 100 -o model-test/sample.txt
+python sample.py -m model-test -t 1 -l 600 -o model-test/sample.txt
+```
+
+To evaluate feature
+
+```bash
+python evaluate_feature.py -m model-test -s model-test/sample.txt --neuron_id 0
 ```
 
 ### Specialized Scripts
