@@ -25,7 +25,7 @@ python sample.py -m model-test -t 1 -l 100 -o model-test/sample.txt
 To generate 6 sample music pieces
 
 ```bash
-python scripts/generate model-test
+python scripts/generate.py model-test
 ```
 
 ## Usage
