@@ -35,6 +35,9 @@ def evaluate(args):
     acts = neuron_activations(args)
     text = open(args.sample).read()
     plot_heat_map(acts, text[:args.row * args.col])
+    if args.output_file is not None:
+        plt.savefig(args.output_file)
+    plt.show()
 
 
 def neuron_activations(args):
@@ -65,7 +68,6 @@ def plot_heat_map(data, labels):
             plt.annotate(repr(labels[k]).strip("'"),
                          xy=(j - .3, i + .4), xycoords='data')
     plt.colorbar()
-    plt.show()
 
 
 if __name__ == '__main__':
