@@ -18,7 +18,7 @@ def main():
                         help='model directory')
     parser.add_argument('-o', '--output_file', type=str, default=None,
                         help='output file name')
-    parser.add_argument('-p', '--prime', type=str, default='<start>',
+    parser.add_argument('-p', '--prime', type=str, default='<start>\nX:',
                         help='prime sequence')
     parser.add_argument('-t', '--temperature', type=float, default=1,
                         help='higher temperature increases diversity')
