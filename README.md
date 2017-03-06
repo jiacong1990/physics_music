@@ -34,6 +34,12 @@ To generate 6 sample music pieces
 python scripts/generate.py model-test
 ```
 
+To evaluate features for all neurons in the model use the sample
+
+```bash
+python scripts/evaluate_features.py model-test/sample.txt
+```
+
 ## Usage
 
 ```bash
