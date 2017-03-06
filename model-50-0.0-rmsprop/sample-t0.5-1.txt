@@ -1,0 +1,14 @@
+<start>
+X:11
+T:Alse The de Ares te the Giree the Horka
+T:Miche  tin ef also pare
+R:Farsinne
+T:Brant the the the cod and la fore te pare
+R:Borgig
+R:Marerend denter
+T:The
+Z:id:hn-hornpipe-2
+A2c2 22 Gz | G2G2 | B4 | d2 A/d/c/c/ | d>e d2 | cBA | B2G g2f | f2g d2d | g2g aff | d2d d2d | f2f e3d | c2d2 A2 :|
+|: ea fd/e/ | dB Bd | cd ed | ez e2 | B2 BA | B>B BB | d2 AG | A2 A2 | e2 fe | f3/2 | d>B B2 | B2 B2 | F4 | d2e>d | d2d2 | e>c B>B | d3 BGB | e2f | f2d c3A | F2F2 A2 | c2 AF | B2 A2 | d2 c2 | B2B2 | c2 AG | F2 BA/G/ GB | B/d/f/e/ | dc ce | fg/2 e/2 d/2d/2 | d2c2 | d2B2 | B2 G2 | B2 B2 | AB AB | B2 AB | d2 c/A/B/ B/G/A/A/ AG | G2 A2 | B2 B2 | d2 AB GB | B2 AF | A2 c2 | B2 Ac | d>ef | g2f2 | c2d2 | cB dc | c2 c/8 | e2 d2 | ed cB | d2 A2 | A2 A2 | B2 d2 dc | d2 cB | ed eg | f2 ff | ed/d/ eg | ed/c/ de | d4 |
+e/2g/2 | ed/2e/2 | d2 A2 ||
+<end>

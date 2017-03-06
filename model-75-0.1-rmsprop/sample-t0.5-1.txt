@@ -1,0 +1,8 @@
+<start>
+X:26
+T:Lo dic |
+ref gf | d2 Bd d2 | d2 cB | A2 B2 G2 | (3G FA | G2 G>B | B2 B2 | BB BB | dc ce | fe A | B2 BA | A2 Bd | cB BA | B2 GB | Bc cB | B2 cd | cc Bc | cd cB | B2 Bd | dc B>c | BA B2 AG | A3 B2d | f2f a2 | g2 gb gf | ee fe | dc AB | B2 BB | Bc B>B | B4 | B2 B2 | AB/c/ BG | c2 d2 | B2 Bc | cB AB | G2B2 | c2B2 | Bcdc | cd cB | cA BA | GB BB | B2 BA | BG GB | cd cB | Bc cc | B2 B2 | c3c | B2 B2 | c2 BA | G/2c/2 | B2 A2 | A2 G2 | A2 B2 | B2 Bd | B2 GB | cB Bc | BG BA | AG Ac | AG/A/ BA B2 | G2 G2 G2 | G4 | cB G/B/A/F/ | B2 BG | c2 cB | B2 Bc | cc Bc | c2 Bd cB | B2 Bc BA | c2 d>e | ee fg | fa f2 | gf ef | ef d2 | c2 d2 de | f2 d>B | A4 :|
+|: G2 | GB BG | c2 d2 | c2 cd | dc dB | d2c | BB BB | B2 B2 | B2 B>B | B/B/B/c/ | BA BA | c2 GB c | A4 c2 | B2c2 | cB/2B | ce d2 | d>c B>B | B>B ce | d2 c>B | B2 B/B/A | BB BB | A2 G2 A | B2 B2 | B2 B>A | B2 AB|A2 A>d | ec BA | B2 Bc | c2 d>B | 
+e>d B>c | B2 c>B | cB BA | G2 AG | B2 G2 | B2 BA | G2 G2 ||
+B2 d2 BB | B2 B2 | B2 B/ | dc de | e2 d2 | c2e2 | c2c2 | BA dB | B2 BA | B2 e2 | gf f2 fe | d B B2 | B2 B2 | c2 BB | c2 B2 | B2 AB | B2 A>B | cdcA | B2 B | B2 B/B/A/G/ | B2B2 | A4 | Bd de | d2 cB A2 | B2B2 | g2 f2 | g2 gf | f2 c2 | d2 B3 | cB BA | B2 BA | B2 BG | G2 G/ A/2|c/2A/2A/2 | c/2F/2g | d2 ed | cd cc | dc c>d | ed cB BG | A2 GA GF ||
+<end>

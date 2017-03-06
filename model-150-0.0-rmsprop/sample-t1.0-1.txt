@@ -1,0 +1,14 @@
+<start>
+X:5
+T:facdBA)
+B:manamojigh ka Corne
+dc, | G3 GzF | G3 B2c | B2d | c3 |  c/Bd/2B/2 | Ad gz | ec | dBEF | D2 B2 G2l
+-:ttam
+/2gf | f2gz | ^G=FA A2 | FD Fe | B3g | f4Cd | B2de | d2-e2 | B4 | d2 2c/d/ | dd de | f4ce | c2Led | "G"B>c MB2| G2 | ef/e/d/e/ /g/a/b/ b/e/d/ | a2 aRz | egd g2f | (6>e) df | e>d de | e, F>A B>A B>A2 | f2e | e2 dG | E2 E2 | FCFD dFG | EAG FGF|D c FDE:|2 "f fed (Bc)c3||
+F2 G2 B,/|cF GG|fe fe|f=e fce|dfa bga|dfd ggf|gfe e2f|dcB cBc|GBd d2c|B3 cAA|A2dc A2:|
+Cc cecd:|
+ GFG d3 | d2g2d4 | G2G2B2 | B2d2 | gfbc d c2 | c2 c/2B/A AF/G/ | d2gfe cg | dbg feg | b2 zbo | g2gf g2 (3F/G/G | B2BA | GA/E/ | B ef | d/c/e/c/ | d) | f2dg | ee/d/Sc/2 | cAAc | cAG | f dc | g2 z2 | B4 | 
+E2 GA/~B/ | B2cc | BAFA | B2R2 | d3) | de gf/g/ | f2 fs | (3rgd gf(cB)Az (3/2c/2G/2B/2cy| dA/2 AG/A/ Bc||
+lBG AAF | 3G FG BA :|
+AGA cAB | GFd d2c ||
+<end>

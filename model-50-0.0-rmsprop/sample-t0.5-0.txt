@@ -1,0 +1,8 @@
+<start>
+X:12
+T: ranan | dcB Bdc|BdB AGE|GAA | c2d2 | d2B2 | d2 cB | BA Bc cB | d2 c2 | e>e d2 | c4 | d2e2 | e2ff | e2 fe | d2 G2 | 
+B2df | e2fe | d2 dc|cd e>g|
+g/ /g/a/a/ f/e/g/e/ e/f/e/d/ | c2 dB | cB BG | E2 A2 | B2 G2 | B2 A2 | B2 B2 | B4 | B2 G2 | B2 B2 | d2 AB | d4 | ceed | c2 d2 | dc cB | BB/B/ Bc | dc cA A>A | BB/B/ cB Bd/2d/2| B/2/2 | B/2A/2 A/B/c/e/ | f2 f2 | e2 c/B/B/G/ | G2F2 | B2B2B2 | c2B2 G2 :|
+|: ff/e/ de d2 | B2 E>B | B2 AG | d2 AB B2 | de gf | e6/2/ | g2 ed | d2 A2 | d2 A2 | B2 G2 | d3 A2B2 | G4 c2B>B | B4z>B B2 | Bc/d/B/G/ | F4 | ed ec | e2 d2 | d2 Bc | c2 AG | AB/d/ ce | dc Bd | d4 | BB Bc | B2 B2 | B2 c2 | B>B B>B Bc | d2B2 | B2 c2 | d2 Bd | d2 cB | e2 e2 | g2 d2 | ed/c/ e/d/c/d/ | gg ff | ef | d2 cB | B2 AB | d2 B2 | d2 e/d/e/e/|ed ef|ed ed|e2 gf|ef ed|ag e/f/a/g/ fde|d2d edB|fdd dBA|ABA AED|ABA ABG|ded A2A|AFE AGE||
+|:ded dBA|BAA AFE||
+<end>

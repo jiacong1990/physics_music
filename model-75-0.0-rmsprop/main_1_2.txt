@@ -1,0 +1,19 @@
+<start>
+X:8
+T:Var a
+(!fd>f | cdB2 | B4 :|
+|:ff ed | ed d2f2 | e3 baf|~f3f d2d2|d2d2|c3
+hedcB|
+d4ff | fge2 g2 | f2ed d2 (3ee|eg2 Gef|ged Ad|cA Audc| BGde ~g3D |
+g4 fing
+R:Caf tambourolong gThd cigane  
+l:on
+K:Bblam"dBdf g2 (3agf|e2cd degf|(3ege fce|f2(gef/ dc cd/d/|e cA/B/ Bd | B2 A2 | G2 ga | f/
+g/ fe fb | fe f>^c f2d | fdd | BAB dAG |
+DEF E2D2 FFEE |1 BAGG FA (3cce fe dd|edAB ecfd|ecgc ecde|esee P2u gfg|dAe ABd|dcA BAF|~G3 (3ABA dB :|
+P:Franoherr
+AZ:Pourmiont "Theis che rBALdBB drea (1c'E  031c2:)
+oured goutido bonrim
+zB/Ap |:|
+G2BB B2c2 ::|
+<end>

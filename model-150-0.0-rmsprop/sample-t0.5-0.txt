@@ -1,0 +1,5 @@
+<start>
+X:200
+BAG GAF | EAF B2A | B3 BAG | F2A G2A | f2e a3 | d2Bd | ee fe | fe de | f2 ef | f2 ef | fe dc | d2 d2 | c2 :|
+c/B/A/d/ cA | fe fe | fe d/c/ | dB BG | G2 G2 | B2 BB | B2zB | ec dB | B2 B2 | c2 dc | c2 BA | B2 B2 | B2 A2 | B3 | dBA | e2d | B>A | (3G/G/G | DE/F/ | B2 BB | d2 f2 | e3 | g2f | edc | C3 | B3 | B3 | B3 | B2B B2c | cB/d/B/ B/c/B/A/ G/A/G/c/ | dB Bc | c2 e2 | g>g | f2e2 | ed d2 | c2 c2 | c2 B2 | B2AB | BB/B/BB | B3 A2B | A2A G2d | B2B d2d | e2e d2e | d2c B2c | edc c2A | BAG A2A | f2g a2g | f3 f2c | B2A B2B | B2B B2B | B2A B2A | B2c B2A | B2B d2B | B3 G2G | F2G E2F | D2G EGA | AGF E2c | ABA BAF | E2G A2A | B2c B2A | B2A BAG | AGE AFA | DEF D2F | D2D GAA | Bde d2d | f2e d2c | d2d c2A | c3 | e2d e2g | e2c d2c | BAG ABc | BAG G2A | FAF  A2 :|
+<end>

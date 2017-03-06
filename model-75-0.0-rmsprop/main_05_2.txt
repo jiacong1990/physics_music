@@ -1,0 +1,12 @@
+<start>
+X:8
+T:Sestourine die
+R:polka
+Z:id:hn-polka-27
+M:3/4
+L:1/8
+K:Bb
+g>g dc | c2 dc | BG GG | G2 D2 | A2AB | B4 | B2(AB dc | cd dc | BG BA | d2 d2 | c>B c2 | d4 e2 | f2 d2 | cd (3c3d | d3d d2 | fe dB | B2 B2 | B2 B2 | B2 B2 | G2 A>B | A2 AB | cB AG | GE GF | D2 D4 | G2A2 | B2z2 | B2 G>B GB | A2 B2 |  B2 BA | Bd d>B | A2 cB | BG GE | G2 A>B | A4 | B2 G2 | A2 GE | A2 G/A/A/F/ | d2 B2 | G2 G2 | B2 B2 | d2 d2 | fc | dd | e4 | f2 d2 | d2 d>B | A2 BA | B2 B>B | BG G2 | B2 G2 | B4 | B2 B2 | BB B2 | B2 d/e/f/e/ | ef | f2 d>B | B2 Bc | 
+B2 B/ Bc | cB Bc | d2 d2 | f2 (3c | B2 G2 | B2 B2 | B2 B2 | B2 Bc | ce fd | d4 | d2 :| c2d2 | f2 f2 | g2 d2 | c4 | c2c2 | d4 :|
+|: (3Bcd | e2d | d4 :|
+<end>

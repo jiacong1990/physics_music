@@ -1,0 +1,13 @@
+<start>
+X:12
+T:car pestaion  eand Ga rante 
+R:Counlind ead to tad e tout da Gourot endan ereand e couge doug ta tang 
+c: de da Reourle Barscoill o2 parouthe Counto
+A:Pour toute observations ton maristin barsee
+Z:id:hn-hornpipe-16
+M:2/4
+L:1/8
+K:A
+GA AG|BA Ad|ed cd|ec ed|cd Bd | dB cB | Bc Bc | c>B A>B | c4 | c2 B2 | B2B2 | B4 ||
+c2 c2 | cB A2 | G4 | B2 G2 | B2 BB | B2 BG | B2 B2 | cB BA | AB AF ||
+<end>

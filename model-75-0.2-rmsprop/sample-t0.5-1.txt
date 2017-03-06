@@ -1,0 +1,21 @@
+<start>
+X:4
+T:Fallare, The
+R:polka
+D: land ch mes
+R:Bines doug of the Monne do pere taraste
+R:hornpipe
+C:Cian indell dellon me la dunte
+R:hornpipe
+D:Dasland "C"C"C"ins
+M:3/4
+L:1/8
+K:verdationse
+M:2/4
+L:1/8
+K:Bb
+c2 | B2 (3cec | d2e2 ggef | gfae d2de | dfag agfe | dded dBBc | | BBAA ABGA| G2G2 G2F2|
+A2G2 FAGG|
+AGAB deef|fdBc c2BA|d2Bd dedB|c2BA Bded|dcdc d2ed|edcB A2dB|AGBB dcBA|AGFA Bdcd|edcd ABAd|fedc deed|d2ef d2cd| dBAB ABA|dBc dec|Bdd ede|a2d efe|edf ede|dcA ABA|BGA BBA|dBA G2A|BAG AFF|ABA (3BAB|ABBc G2 | B2A2 | B2A2 | G2F2 | B2B2 | c2c2 | BcBA | A2F/2 | c2 BB | Ac Ac | ce fe | e2 ef | d2 d>d | dc c2 | B2 B2 | G2 | B2B2 | G2 c2 | c2 dc | BB BA | B/B/B/G/ A/G/F/ | GA B2 | B2 cB | B>B cB | BB Bc | A2 d2 | B2c | c2c | A2 | B2 c2 | B/A/G/A/ DA | G2 G2 | A2F2 | G2A2 | BcBA | A2B2 | B2B2 | G>B B2 | d2B2 | A2B2 | d2B2 | B2G2 | E2G2 | G2 D2 | G2 G2 | B2 d2 |  B2 A2 | G2 G2 | A2 G2 | A2 A2 | A2 c2 | B/B/ | B2 cB|cB A>B|de g2||
+|:ed ed|ed ed|ed ed|ed BA| AB/B/ BB/B/|Bc BA|AG G2|A2 AB|dc ed|ed ef|ef ed|Be cB|AF AB|d2 dc|B2 ce|dc AB|A2 A>B|Bc AB|1 A2 B2|B2 AB|AF A>B||
+<end>
