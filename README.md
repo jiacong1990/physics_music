@@ -17,7 +17,13 @@ python train.py --resume --output_dir model-test --nb_epoch 2
 To sample using a saved model
 
 ```bash
-python sample.py -m model-test -t 1 -l 100 -o model-test/sample.txt
+python sample.py -m model-test -t 1 -l 600 -o model-test/sample.txt
+```
+
+To evaluate feature
+
+```bash
+python evaluate_feature.py -m model-test -s model-test/sample.txt --neuron_id 0
 ```
 
 ### Specialized Scripts
@@ -26,6 +32,12 @@ To generate 6 sample music pieces
 
 ```bash
 python scripts/generate.py model-test
+```
+
+To evaluate features for all neurons in the model use the sample
+
+```bash
+python scripts/evaluate_features.py model-test/sample.txt
 ```
 
 ## Usage
@@ -52,7 +64,7 @@ optional arguments:
   --optimizer OPTIMIZER
                         name of the optimizer (default: rmsprop)
   --output_dir OUTPUT_DIR
-                        output directory (default: test_output)
+                        output directory (default: model-test)
   --resume              resume from saved model (default: False)
   --seq_length SEQ_LENGTH
                         sequence length (default: 30)
@@ -79,10 +91,11 @@ optional arguments:
   -o OUTPUT_FILE, --output_file OUTPUT_FILE
                         output file name (default: None)
   -p PRIME, --prime PRIME
-                        prime sequence (default: <start>)
+                        prime sequence (default: <start> X:)
   -t TEMPERATURE, --temperature TEMPERATURE
                         higher temperature increases diversity (default: 1)
   -u UNTIL, --until UNTIL
                         stop sampling when the until sequence appears
                         (default: <end>)
+
 ```
