@@ -38,6 +38,7 @@ def evaluate(args):
     if args.output_file is not None:
         Path(args.output_file).parent.mkdir(parents=True, exist_ok=True)
         plt.savefig(args.output_file)
+        print('Figure saved to', args.output_file)
     else:
         plt.show()
 
